@@ -12,6 +12,8 @@ def get_curr_month_name():
   
 # Function to rename multiple files 
 def main(): 
+
+    print(os.getcwd())
   
     for filename in os.listdir("1.FilenamesAndFilepaths\\work_files"):
         print(filename)
